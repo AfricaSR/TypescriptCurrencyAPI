@@ -22,6 +22,23 @@ request('https://api.coinbase.com/v2/currencies', function (error, response, bod
         $('#sel2').append('<option value="'+value.id+'">'+value.name+'</option>');
         cs.push(value);
     });
+
+    $(document).ready(function(){
+
+      $('#conversor').click(function(){
+
+        let m1: any = $('#sel1').val();
+
+        let m2: any = $('#sel2').val();
+
+        console.log(m1 + " " + m2);
+
+      });
+
+      
+      
+
+    })
 /*
     cs.forEach(function (){
       $('#sel1').append('<option value="'+id+'">'+this.name+'</option>');
