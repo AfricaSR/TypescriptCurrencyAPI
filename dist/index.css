@@ -118,6 +118,16 @@ body {
     text-indent: 5%;
 }
 
+#resultado {
+    margin: auto;
+    width: 25%;
+    height: 7vh;
+    border-radius: 25px;
+    margin-bottom: 2%;
+    font-size: 30px;
+    vertical-align: middle;
+}
+
 
 /*
  * Affix and center
